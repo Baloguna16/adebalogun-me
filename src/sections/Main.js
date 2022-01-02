@@ -11,16 +11,16 @@ import WaveEmoji from '../components/WaveEmoji';
 export const Main = () => {
   return (
     <div>
-      <Typography variant="h3" gutterBottom>
+      <Typography variant="h4" gutterBottom>
         Hey, I'm Ade
         <WaveEmoji />
       </Typography>
-      <Typography variant="h5" component="p" gutterBottom>
-        {'This is my website! You\'re welcome to say if you would like. '}
+      <Typography variant="h6" gutterBottom>
+        {'This is my website! You\'re welcome to stay if you would like. '}
         {'I\'m Nigerian-American and from New Jersey. '}
         {'I\'m a recent grad from Columbia Engineering (2020, wooo). '}
       </Typography>
-      <Typography variant="h5" component="p" mt={3} gutterBottom>
+      <Typography variant="h6" mt={3} gutterBottom>
         {'And I like to make stuff!'}
       </Typography>
     </div>
