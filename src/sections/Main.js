@@ -17,7 +17,7 @@ export const Main = () => {
       </Typography>
       <Typography variant="h5" component="p" gutterBottom>
         {'This is my website! You\'re welcome to say if you would like. '}
-        {'I\'m Nigerian American and from New Jersey. '}
+        {'I\'m Nigerian-American and from New Jersey. '}
         {'I\'m a recent grad from Columbia Engineering (2020, wooo). '}
       </Typography>
       <Typography variant="h5" component="p" mt={3} gutterBottom>
