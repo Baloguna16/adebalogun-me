@@ -7,7 +7,7 @@ export const Error404 = () => {
       <Typography variant="h4" gutterBottom>
         Page Not Found
       </Typography>
-      <Typography variant="h6" component="p" gutterBottom>
+      <Typography variant="h6" gutterBottom>
         {'Sorry, you missed this page. It was just here, looking for you.'}
       </Typography>
     </div>
