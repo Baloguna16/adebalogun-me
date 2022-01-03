@@ -17,11 +17,11 @@ export const Main = () => {
       </Typography>
       <Typography variant="h6" gutterBottom>
         {'This is my website! You\'re welcome to stay if you would like. '}
-        {'I\'m Nigerian-American and from New Jersey. '}
-        {'I\'m a recent grad from Columbia Engineering (2020, wooo). '}
+        {'I\'m a Nigerian-American from New Jersey, and '}
+        {'I recently graduated from Columbia Engineering (2020, wooo)! '}
       </Typography>
       <Typography variant="h6" mt={3} gutterBottom>
-        {'And I like to make stuff!'}
+        {'I like to make stuff!'}
       </Typography>
     </div>
   );
