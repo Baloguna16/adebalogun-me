@@ -35,7 +35,7 @@ export const Footer = () => {
       <Link href="https://twitter.com/Ade_in_myLife">
         <TwitterIcon />
       </Link>
-      <Link href="https://https://www.linkedin.com/in/adekunle-balogun-284b39116/">
+      <Link href="https://www.linkedin.com/in/adekunle-balogun-284b39116/">
         <LinkedInIcon />
       </Link>
       <Typography variant="body1">
