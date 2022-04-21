@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 import { useNavigate } from 'react-router-dom';
 
-import meJpg from '../sections/assets/profile-2.jpg';
+import meJpg from '../../pages/main/assets/profile-2.jpg';
 
 const pages = ['Home', 'Projects', 'Writing', 'Art'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];

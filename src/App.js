@@ -8,8 +8,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 
-import { Main } from './sections';
-import { Navbar, Footer, Error404, useAnalytics } from './base';
+import { Main } from './pages/main';
+import { Projects } from './pages/projects';
+import { Navbar, Footer, Error404, useAnalytics } from './components/base';
 
 const theme = createTheme({
   typography: {
@@ -51,7 +52,7 @@ export const App = () => {
               <Route path="/" element={<Main />} />
               <Route path="/art" element={<Main />} />
               <Route path="/writing" element={<Main />} />
-              <Route path="/projects" element={<Main />} />
+              <Route path="/projects" element={<Projects />} />
               <Route path="*" element={<Error404 />} />
             </Routes>
           </Container>

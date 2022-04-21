@@ -1,9 +1,9 @@
-import spacerPng from './assets/spacer.png';
-import profile0Jpg from './assets/profile-0.jpg';
-import profile1Jpg from './assets/profile-1.jpg';
-import profile3Jpg from './assets/profile-3.jpg';
-import profile4Jpg from './assets/profile-4.jpg';
-import profile5Jpg from './assets/profile-5.jpg';
+import spacerPng from '../pages/main/assets/spacer.png';
+import profile0Jpg from '../pages/main/assets/profile-0.jpg';
+import profile1Jpg from '../pages/main/assets/profile-1.jpg';
+import profile3Jpg from '../pages/main/assets/profile-3.jpg';
+import profile4Jpg from '../pages/main/assets/profile-4.jpg';
+import profile5Jpg from '../pages/main/assets/profile-5.jpg';
 
 export const Carousel = () => {
 
