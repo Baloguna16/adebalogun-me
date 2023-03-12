@@ -1,5 +1,5 @@
 import { Typography} from '@mui/material';
-import { Canvas } from '../components/gol';
+import { Canvas } from '../gol';
 
 export const Error404 = () => {
   return (
