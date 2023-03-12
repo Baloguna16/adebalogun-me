@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
@@ -54,3 +55,18 @@ body {
     transform: scale(1);
   }
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.headshot-image {
+  width: 200px;
+  height: auto;
+  display: block;
+  border-radius: 2%;
+}
+>>>>>>> staging
