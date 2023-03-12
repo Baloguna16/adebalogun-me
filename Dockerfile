@@ -4,10 +4,10 @@ FROM node:18.12.0 as build
 WORKDIR /app
 COPY . /app
 
+RUN npm install -g typescript
 RUN yarn install --production
 RUN yarn build
 
-# Stage 1, based on NGINX to provide a configuration to be used with react-router
 FROM nginx:alpine
 
 COPY --from=build /app/build /usr/share/nginx/html
