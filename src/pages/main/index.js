@@ -1,12 +1,7 @@
 import { useState, useEffect } from 'react';
 
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
-
-import WaveEmoji from '../components/WaveEmoji';
+import WaveEmoji from '../../components/emojis/WaveEmoji';
 
 export const Main = () => {
   return (
@@ -17,8 +12,8 @@ export const Main = () => {
       </Typography>
       <Typography variant="h6" gutterBottom>
         {'This is my website! You\'re welcome to stay if you would like. '}
-        {'I\'m a Nigerian-American from New Jersey, and '}
-        {'I recently graduated from Columbia Engineering (2020, wooo)! '}
+        {'I\'m Nigerian-American, from New Jersey, and '}
+        {'did environmental engineering at Columbia (2020, wooo)! '}
       </Typography>
       <Typography variant="h6" mt={3} gutterBottom>
         {'I like to make stuff!'}
